@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+/*
+  Palette
+
+  White: #FCF7F6
+  Orange: #943600
+  Green: #08A368
+  Red: #A60835
+  Magenta: #9C0A5D
+  Blue: #1F3C8C
+
+ */
+
+html * {
+  font-family: 'Source Code Pro', monospace;
+}
+
+body {
+}
+
+h1 {
+  font-size: 3.0em;
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 0;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+h4 {
+  margin: 5px;
+  padding-bottom:15px;
+}
+
+fieldset {
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid;
+  margin-bottom: 20px;
+}
+
+hr {
+  width: 90%;
+  margin-top: 30px;
+}
+
+input {
+  cursor: pointer;
+}
+
+input[type=text], input[type=email], input[type=password] {
+  margin: 0 auto;
+  padding: 0;
+  width: 95%;
+  height: 25px;
+  font-size: 14px;
+  background-color: #9C0A5D;
+  color: #FCF7F6;
+  border: 2px solid;
+  outline: none;
+}
+
+input[type=text]::placeholder, input[type=email]::placeholder, input[type=password]::placeholder {
+  padding-left: 4px;
+  color: #FCF7F6;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+  border: 4px solid;
+  margin-top: -2px;
+  margin-bottom: -2px;
+  outline: none;
+}
+
+input[type=submit], input[type=reset] {
+  border: none;
+  background-color: #9C0A5D;
+  color: #FCF7F6;
+  padding: 10px 30px;
+  font-size: 13px;
+  border: 2px solid;
+}
+
+input[type=submit]:active, input[type=reset]:active {
+  background-color: #FCF7F6;
+  color: #9C0A5D;
+  border: 2px solid #FCF7F6;
+}
+
+textarea {
+  margin: 0 auto;
+  padding: 0;
+  outline: none;
+  width: 95%;
+  height: 100px;
+  font-size: 14px;
+  resize: none;
+  background-color: #9C0A5D;
+  color: #FCF7F6;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+textarea:focus {
+  border: 4px solid;
+  margin-top: -2px;
+  margin-bottom: -2px;
+}
+
+textarea::placeholder {
+  padding-left: 2px;
+  color: #FCF7F6;
+}
+
+ul {
+  text-align: left;
+  list-style: none;
+}
+
+ul li {
+  padding-top: 5px;
+}
+
+#background_fill {
+  margin: 0 auto;
+  padding-top: 90px;
+  padding-bottom: 30px;
+  color: #FCF7F6;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 500px;
+  text-align: center;
+}
+
+#color_select_label {
+  display: block;
+  margin-bottom: -15px;
+  text-decoration: underline;
+}
+
+#color_select_region {
+  margin: 0 auto;
+  width: 190px;
+}
+
+#optional_radio_buttons ul {
+  padding-top: 18px;
+  width: 160px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.color_value {
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.form_title_legend {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.input_label {
+  display: block;
+  padding-left: 9px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.text_align_object {
+  text-align: center;
+}
+
+.ul_label {
+  display: block;
+  text-decoration: underline;
+  margin-bottom: -15px;
+}
+
+.ul_region {
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 80%;
+}
