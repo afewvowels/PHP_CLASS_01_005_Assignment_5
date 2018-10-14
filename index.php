@@ -5,6 +5,7 @@
   <meta charset='utf-8' />
   <link rel='stylesheet' href='./css/style.css' type='text/css' />
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+  <?php include('./includes/inc_mysql.php') ?>
   <?php include('./includes/inc_functions.php') ?>
 </head>
 
